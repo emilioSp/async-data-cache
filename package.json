@@ -1,0 +1,39 @@
+{
+  "name": "async-data-cache",
+  "version": "1.0.1",
+  "description": "Node.js cache for async data",
+  "main": "dist/index.js",
+  "keywords": [
+    "async",
+    "cache",
+    "performance"
+  ],
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "dev": "ts-node index.ts",
+    "usage": "ts-node usage.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilioSp/async-data-cache.git"
+  },
+  "author": "Emilio Spatola <emilio.spatola@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emilioSp/async-data-cache/issues"
+  },
+  "homepage": "https://github.com/emilioSp/async-data-cache#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^14.0.23",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "types": "dist/index.d.ts"
+}
