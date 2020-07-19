@@ -9,9 +9,11 @@
     "performance"
   ],
   "scripts": {
-    "prepublishOnly": "tsc",
+    "prepare": "tsc",
     "dev": "ts-node index.ts",
-    "usage": "ts-node usage.ts"
+    "usage": "ts-node usage.ts",
+    "version": "git add -A",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
@@ -35,5 +37,6 @@
     "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
   },
+  "files": ["dist/**/*"],
   "types": "dist/index.d.ts"
 }
