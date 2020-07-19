@@ -8,12 +8,12 @@ This library allows your to cache the result of an async call.
 It's useful when you have to call an api or execute a heavy query and the performance are more important than the real-time.
 You can easily choose the cache time to live (ttl).
 
-# Installation
+## Installation
 ```
 yarn add async-data-cache
 ```
 
-# Usage
+## Usage
 ```
 // Simulate a function that requires 3 secs to complete (e.g. a heavy db query)
 const dataFetcher = (): Promise<Array<number>> => {
