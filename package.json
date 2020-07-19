@@ -1,6 +1,6 @@
 {
   "name": "async-data-cache",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Node.js cache for async data",
   "main": "dist/index.js",
   "keywords": [
@@ -37,6 +37,8 @@
     "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
   },
-  "files": ["dist/**/*"],
+  "files": [
+    "dist/**/*"
+  ],
   "types": "dist/index.d.ts"
 }
