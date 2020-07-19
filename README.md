@@ -1,4 +1,6 @@
 # async-data-cache
+<img src=https://img.shields.io/npm/l/async-data-cache> <img src=https://img.shields.io/snyk/vulnerabilities/github/emiliosp/async-data-cache> <img src=https://img.shields.io/npm/v/async-data-cache> <img src=https://img.shields.io/badge/keyword-performance-blue> <img src=https://img.shields.io/badge/keyword-cache-blue>
+
 A simple async data cache with __no dependencies__.
 
 This library allows your to cache the result of an async call. 
