@@ -11,7 +11,7 @@
   "scripts": {
     "prepare": "tsc",
     "dev": "ts-node usage.ts",
-    "test": "jest",
+    "preversion": "jest",
     "version": "git add -A",
     "postversion": "git push && git push --tags"
   },
