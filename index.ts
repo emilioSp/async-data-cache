@@ -15,6 +15,10 @@ class DataCache<T> {
     return this.fetchTime + this.millisecondsToLive < Date.now();
   }
 
+  invalidateCache() {
+    this.cache = null;
+  }
+
   async getData(): Promise<T> {
     if (!this.cache || this.isCacheExpired()) {
       this.cache = await this.fetchFunction();
