@@ -1,8 +1,6 @@
 // Simulate a function that requires 3 secs to complete (e.g. a heavy db query)
 import DataCache from './index';
 
-jest.setTimeout(9999999);
-
 const sleep = (min: number) => {
   return new Promise((res, rej) => {
     setTimeout(() => res(), min * 60 * 1000);
