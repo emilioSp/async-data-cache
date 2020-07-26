@@ -1,5 +1,6 @@
 # async-data-cache
 <img src=https://img.shields.io/npm/l/async-data-cache> <img src=https://img.shields.io/snyk/vulnerabilities/github/emiliosp/async-data-cache> <img src=https://img.shields.io/npm/v/async-data-cache> <img src=https://img.shields.io/badge/keyword-performance-blue> <img src=https://img.shields.io/badge/keyword-cache-blue>
+![CI](https://github.com/emilioSp/async-data-cache/workflows/CI/badge.svg)
 
 A simple async data cache with __no dependencies__.
 
