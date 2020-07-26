@@ -45,13 +45,12 @@ describe('Data cache', () => {
     expect(dataFetcher).toHaveBeenCalledTimes(2);
   });
   test('TTL', async () => {
-    console.log('Testing cache ttl. Wait 30 secs...');
-    cache = new DataCache<Array<number>>(dataFetcher, 1/4);
+    cache = new DataCache<Array<number>>(dataFetcher, 1/60);
     await cache.getData();
     await cache.getData();
     await cache.getData();
     expect(dataFetcher).toHaveBeenCalledTimes(1);
-    await sleep(1/2);
+    await sleep(1/60);
     await cache.getData();
     await cache.getData();
     expect(dataFetcher).toHaveBeenCalledTimes(2);
