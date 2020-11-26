@@ -19,7 +19,7 @@ yarn add async-data-cache
 ```
 
 ## Usage
-```
+```node
 // Simulate a function that requires 3 secs to complete (e.g. a heavy db query)
 const dataFetcher = (): Promise<Array<number>> => {
   console.log('dataFetcher');
