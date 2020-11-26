@@ -43,7 +43,7 @@ const dataFetcher = (): Promise<Array<number>> => {
 ```
 
 To change the ttl, pass the ttl minutes to the DataCache constructor
-```
+```node
 // 1 hour of ttl
 const cache = new DataCache<Array<number>>(dataFetcher, 60);
 ```
